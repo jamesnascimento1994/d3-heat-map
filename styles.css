@@ -1,0 +1,28 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background-color: seagreen;
+}
+
+svg {
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+#canvas {
+    min-height: 650px;
+    min-width: 1200px;
+}
+
+#tooltip {
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
