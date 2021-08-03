@@ -83,6 +83,10 @@ let drawCells = () => {
         .on('mouseover', (item) => {
             tooltip.transition()
                    .style('visibility', 'visible')
+                   .style('padding', '20px')
+                   .style('margin-bottom', '20px')
+                   .style('background-color', 'white')
+                   .style('border-radius', '5px')
 
             let monthNames = [
                 'January',

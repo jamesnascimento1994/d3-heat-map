@@ -26,3 +26,14 @@ svg {
     height: auto;
     width: auto;
 }
+
+#legend {
+    margin-top: 20px;
+    padding: 20px;
+    width: 180px;
+    height: 58px;
+}
+
+.legend-text {
+    font-size: 10px;
+}
