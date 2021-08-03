@@ -81,12 +81,13 @@ let drawCells = () => {
 			return xScale(item['year']);
 		})
         .on('mouseover', (item) => {
-            tooltip.transition()
-                   .style('visibility', 'visible')
-                   .style('padding', '20px')
-                   .style('margin-bottom', '20px')
-                   .style('background-color', 'white')
-                   .style('border-radius', '5px')
+            tooltip.style('padding', '20px')
+							.style('margin-bottom', '20px')
+							.style('background-color', 'white')
+							.style('border-radius', '5px')
+							.transition()
+							.style('visibility', 'visible');
+                   
 
             let monthNames = [
                 'January',
